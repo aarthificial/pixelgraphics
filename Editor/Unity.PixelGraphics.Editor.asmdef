@@ -1,0 +1,18 @@
+{
+    "name": "Unity.PixelGraphics.Editor",
+    "rootNamespace": "Aarthificial.PixelGraphics.Editor",
+    "references": [
+        "Unity.PixelGraphics"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

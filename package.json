@@ -1,0 +1,16 @@
+{
+  "name": "com.aarthificial.pixelgraphics",
+  "version": "0.0.1",
+  "displayName": "Pixel Graphics",
+  "description": "A collection of pixel art visual effects",
+  "unity": "2020.2",
+  "author": {
+    "name": "aarthificial",
+    "email": "aarthificial+business@gmail.com",
+    "url": "https://www.youtube.com/aarthificial"
+  },
+  "type": "library",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "10.4.0"
+  }
+}
