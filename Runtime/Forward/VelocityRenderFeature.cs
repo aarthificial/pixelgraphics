@@ -7,8 +7,8 @@ namespace Aarthificial.PixelGraphics.Forward
 {
     public class VelocityRenderFeature : ScriptableRendererFeature
     {
-        [SerializeField] private VelocityPassSettings settings;
-        [SerializeField] private SimulationSettings simulation;
+        [SerializeField] internal VelocityPassSettings settings;
+        [SerializeField] internal SimulationSettings simulation;
 
         [SerializeField, HideInInspector, Reload("Runtime/Shaders/Velocity/Emitter.shader")]
         private Shader emitterShader;

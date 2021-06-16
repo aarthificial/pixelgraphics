@@ -2,7 +2,9 @@
     "name": "Unity.PixelGraphics.Editor",
     "rootNamespace": "Aarthificial.PixelGraphics.Editor",
     "references": [
-        "Unity.PixelGraphics"
+        "Unity.PixelGraphics",
+        "Unity.RenderPipelines.Universal.Core",
+        "Unity.RenderPipelines.Universal.Runtime"
     ],
     "includePlatforms": [
         "Editor"

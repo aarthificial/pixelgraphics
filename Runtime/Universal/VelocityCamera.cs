@@ -6,7 +6,9 @@ using UnityEngine.Rendering.Universal;
 
 namespace Aarthificial.PixelGraphics.Universal
 {
-    public class VelocityManager : MonoBehaviour
+    [AddComponentMenu("PixelGraphics/Velocity Camera")]
+    [RequireComponent(typeof(Camera))]
+    public class VelocityCamera : MonoBehaviour
     {
         [SerializeField] private VelocityPassSettings settings;
         [SerializeField] private SimulationSettings simulation;

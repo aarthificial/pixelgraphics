@@ -31,6 +31,7 @@ namespace Aarthificial.PixelGraphics.Forward
 
             _shaderTagIdList.Add(new ShaderTagId("SRPDefaultUnlit"));
             _shaderTagIdList.Add(new ShaderTagId("UniversalForward"));
+            _shaderTagIdList.Add(new ShaderTagId("Universal2D"));
             _shaderTagIdList.Add(new ShaderTagId("UniversalForwardOnly"));
             _shaderTagIdList.Add(new ShaderTagId("LightweightForward"));
 
