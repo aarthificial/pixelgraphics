@@ -21,12 +21,6 @@
 
         Pass
         {
-            Tags
-            {
-                "LightMode" = "UniversalForward"
-                "LightMode" = "Universal2D"
-            }
-
             Cull Off
             ZWrite Off
             ColorMask BA
@@ -70,8 +64,6 @@
 
                 half4 color = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, input.uv);
                 clip(color.a - 0.1);
-
-                // return 1;
 
                 return half4(0, 0, _PG_PositionDelta.x * 6, _PG_PositionDelta.y * 6);
             }

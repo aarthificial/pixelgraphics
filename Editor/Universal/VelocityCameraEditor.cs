@@ -4,7 +4,7 @@ using UnityEditor;
 
 namespace Aarthificial.PixelGraphics.Editor.Universal
 {
-    [CustomEditor(typeof(VelocityManager))]
+    [CustomEditor(typeof(VelocityCamera))]
     public class VelocityCameraEditor : UnityEditor.Editor
     {
         private SerializedProperty _passSettings;
