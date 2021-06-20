@@ -1,9 +1,8 @@
-﻿using System;
-using Aarthificial.PixelGraphics.Common;
+﻿using Aarthificial.PixelGraphics.Common;
 using UnityEditor;
 using UnityEngine;
 
-namespace Editor
+namespace Aarthificial.PixelGraphics.Editor.Common
 {
     [CustomPropertyDrawer(typeof(RenderingLayerMask))]
     public class RenderingLayerMaskPropertyDrawer : PropertyDrawer
