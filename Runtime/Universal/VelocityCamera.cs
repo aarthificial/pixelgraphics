@@ -10,7 +10,7 @@ namespace Aarthificial.PixelGraphics.Universal
     [RequireComponent(typeof(Camera))]
     public class VelocityCamera : MonoBehaviour
     {
-        [SerializeField] private VelocityPassSettings settings;
+        [SerializeField] internal VelocityPassSettings settings;
         [SerializeField] private SimulationSettings simulation;
         [SerializeField] [HideInInspector] private Shader blitShader;
 
