@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using Aarthificial.PixelGraphics.Common;
 using Aarthificial.PixelGraphics.Forward;
+using Aarthificial.PixelGraphics.Universal;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -79,6 +80,12 @@ namespace Aarthificial.PixelGraphics.Editor.Common
                         break;
                     }
                 }
+            }
+
+            var camera = FindObjectOfType<VelocityCamera>();
+            if (camera != null)
+            {
+                instance.layer = GetFirstLayerFromMask(camera.settings.layerMask);
             }
 
             Undo.RegisterCreatedObjectUndo(instance, "Create " + instance.name);
