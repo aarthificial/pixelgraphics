@@ -9,7 +9,7 @@ PixelGraphics is a collection of interactive foliage shaders for Unity<br>
 _Tested on Unity 2020.2 - PC & WebGL_
 
 ### Installation
-Pixel Graphics can be [installed as a unity package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) 
+Pixel Graphics can be [installed as a Unity package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) 
 using this url:
 ```
 https://github.com/aarthificial/pixelgraphics.git
