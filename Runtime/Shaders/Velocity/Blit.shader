@@ -20,7 +20,7 @@
             #pragma multi_compile_fragment _ _LINEAR_TO_SRGB_CONVERSION
             #pragma multi_compile _ _USE_DRAW_PROCEDURAL
 
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/Utils/Fullscreen.hlsl"
+            #include "Packages/com.aarthificial.pixelgraphics/Runtime/Shaders/Fullscreen.hlsl"
             #include "Packages/com.aarthificial.pixelgraphics/Runtime/Shaders/VelocitySimulation.hlsl"
 
             float4 Fragment(Varyings input) : SV_Target
@@ -43,7 +43,7 @@
             #pragma multi_compile_fragment _ _LINEAR_TO_SRGB_CONVERSION
             #pragma multi_compile _ _USE_DRAW_PROCEDURAL
 
-            #include "Packages/com.unity.render-pipelines.universal/Shaders/Utils/Fullscreen.hlsl"
+            #include "Packages/com.aarthificial.pixelgraphics/Runtime/Shaders/Fullscreen.hlsl"
             #include "Packages/com.aarthificial.pixelgraphics/Runtime/Shaders/VelocitySimulation.hlsl"
 
             float4 Fragment(Varyings input) : SV_Target
